@@ -195,4 +195,4 @@ a!localVariables(
 ```
 
 
-[cardNavigationPreview]: https://github.com/ps-france/ui-sail-snippets/raw/master/screenshots/card_navigation.PNG "Card Navigation"
+[cardNavigationPreview]: https://raw.githubusercontent.com/ps-france/ui-sail-snippets/master/Card%20Navigation/card_navigation.PNG "Card Navigation"
