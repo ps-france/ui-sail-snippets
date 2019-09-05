@@ -122,4 +122,4 @@ a!localVariables(
 )
 ```
 
-[sideBarMenuPreview]: https://raw.githubusercontent.com/ps-france/ui-sail-snippets/master/screenshots/side_item_menu.PNG "Side Bar Menu"
+[sideBarMenuPreview]: https://github.com/ps-france/ui-sail-snippets/raw/master/Side%20Bar%20Menu/side_bar_menu.PNG "Side Bar Menu"
