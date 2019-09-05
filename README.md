@@ -2,7 +2,7 @@
 This repository contains Appian Sail UI Code Snippets made by Appian PS France Team
 
 
-### Side Item Menu
+## Side Item Menu
 #### Description
 - Made with Card Layout
 - Only available from 19.3
@@ -10,6 +10,16 @@ This repository contains Appian Sail UI Code Snippets made by Appian PS France T
 
 #### Preview
 ![alt text][sideItemMenuPreview]
+
+
+### Parameters
+Name      | Description
+--- | ---
+`local!menuTitleBgColor` | Background color for the menu header
+`local!menuTitleColor` | Text color of the header title
+`local!menuItemBgColor` | Background color of an menu item
+`local!menuItemBgColorSelected` | Background color of an menu item in selected state
+`local!menuItemLabelColor` | Text color of an item
 
 #### Code
 ```
@@ -21,7 +31,7 @@ a!localVariables(
   local!menuItemBgColorSelected: "#DAE0E2",
   local!menuItemLabelColor: "#000",
   /* *****  */
-  /** Contents Parameters **/
+  /** Content Parameters **/
   local!title: "Menu",
   local!menuItem: {
     {
@@ -47,6 +57,7 @@ a!localVariables(
           contents: {
             a!cardLayout(
               contents: {
+              
                 a!richTextDisplayField(
                   align: "LEFT",
                   labelPosition: "COLLAPSED",
@@ -117,14 +128,30 @@ a!localVariables(
 
 
 
-### Card Navigation
+
+
+
+
+## Card Navigation
 #### Description
 - Made with Card Layout
 - Only available from 19.3
 
-
 #### Preview
 ![alt text][cardNavigationPreview]
+
+### Parameters
+Name      | Description
+--- | ---
+`local!iconColor` | Navigation Item Icon Color
+`local!iconSize` | Navigation Item Icon Size
+`local!titleColor` | Navigation Item Title Color
+`local!descriptionColor` | Navigation Item Description Color
+`local!descriptionColorSelected` | Navigation Item Description Color (selected state)
+`local!itemBgColor` | Navigation Item Background Color
+`local!itemBgColorSelected` | Navigation Item Background Color (selected state)
+`local!itemPerRow` | Number of items to display par row
+
 
 #### Code
 ```
