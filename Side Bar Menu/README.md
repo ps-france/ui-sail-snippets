@@ -53,7 +53,6 @@ a!localVariables(
           contents: {
             a!cardLayout(
               contents: {
-              
                 a!richTextDisplayField(
                   align: "LEFT",
                   labelPosition: "COLLAPSED",
